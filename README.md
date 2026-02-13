@@ -62,5 +62,31 @@
 
 ![Submit3](./Guide/9.png)
 
+## ！！更新源文件！！
+
+每次在进行编辑之前一定要检查是否与源仓库同步！
+
+### 步骤 1：在 GitHub 网页上更新他的远程仓库
+
+打开你的 GitHub 仓库网页。
+
+在文件列表上方，你会看到一个灰色的条，写着：This branch is 1 commit behind [你的名字]:main（此分支落后于原作者 1 个提交）。
+
+旁边有一个显眼的 Sync fork 按钮。
+
+点击它，选择 Update branch。
+
+此时，你的 GitHub Fork 仓库已经跟原仓库保持同步。
+
+### 步骤 2：把更新拉回的电脑
+
+打开 GitHub Desktop。
+
+点击 Fetch origin。
+
+按钮会变成 Pull origin，点击它。
+
+此时，你的本地 Obsidian 里的文件才会真正更新。
+
 
 
