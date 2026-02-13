@@ -1,0 +1,152 @@
+/* =========================================
+   Obsidian 数学笔记 Callout 样式定义
+   ========================================= */
+
+/* 1. Theorem (定理) - 保持原设计 (紫色) */
+.callout[data-callout="theorem"] {
+    --callout-color: 156, 39, 176;
+    --callout-icon: lucide-function-square; /* 图标：函数符号 */
+}
+
+/* 2. Axiom (公理) - 好看的浅橙色 */
+/* 寓意：公理是数学大厦的地基，使用 landmark (地标/建筑) 或 anchor (锚) */
+.callout[data-callout="axiom"] {
+    --callout-color: 255, 140, 0; /* 深橙色，防止在白底看不清 */
+    --callout-icon: lucide-landmark;
+}
+
+/* 3. Definition (定义) - 较深的浅蓝色 (重要) */
+/* 寓意：查阅字典/书籍，使用 book-open */
+.callout[data-callout="definition"] {
+    --callout-color: 2, 136, 209; /* 较深的亮蓝 */
+    --callout-icon: lucide-book-open;
+}
+
+/* 4. Proposition (命题) - 较浅的浅蓝色 (次要) */
+/* 寓意：一个小想法或提议，使用 lightbulb (灯泡) */
+.callout[data-callout="proposition"] {
+    --callout-color: 79, 195, 247; /* 清新的天蓝 */
+    --callout-icon: lucide-lightbulb;
+}
+
+/* 5. Instance (例子) - 同 Proposition */
+/* 寓意：具体的一个盒子/实例，使用 box */
+.callout[data-callout="instance"] {
+    --callout-color: 79, 195, 247; /* 同命题色 */
+    --callout-icon: lucide-box;
+}
+
+/* 6. Annotation (注记) - 漂亮的浅灰色 */
+/* 寓意：便利贴/补充说明，使用 sticky-note */
+.callout[data-callout="annotation"] {
+    --callout-color: 158, 158, 158; /* 标准灰 */
+    --callout-icon: lucide-sticky-note;
+}
+
+/* 7. Proof (证明) - 纸张感 */
+.callout[data-callout="proof"] {
+    --callout-color: 160, 140, 115; /* 咖啡/木质色 */
+    background-color: rgba(255, 248, 225, 0.4) !important; /* 极浅的暖米色 */
+    border: 1px inset rgba(var(--callout-color), 0.2);
+}
+
+.callout[data-callout="proof"] {
+    --callout-color: 160, 140, 115; /* 咖啡/木质色 */
+    background-color: rgba(255, 248, 225, 0.4) !important; /* 极浅的暖米色 */
+    border: 1px inset rgba(var(--callout-color), 0.2);
+}
+
+.callout[data-callout="proof"] .callout-icon {
+    color: #8d6e63;
+}
+
+/* 8. Table (表格块) - 逻辑严谨风 */
+.callout[data-callout="table"] {
+    --callout-color: 0, 121, 107; /* 深青绿色 */
+    background-color: transparent !important; /* 彻底去除背景，减少视觉噪音 */
+    border: 1px solid rgba(var(--callout-color), 0.2); /* 淡淡的边框线 */
+    padding: 0 12px; /* 减小内边距 */
+}
+
+/* 让标题看起来像个小标签 */
+.callout[data-callout="table"] > .callout-title {
+    background-color: transparent !important;
+    font-weight: bold;
+    color: rgb(var(--callout-color));
+    border-bottom: 1.5px solid rgba(var(--callout-color), 0.4);
+    margin-bottom: 8px;
+    padding: 8px 0;
+}
+
+/* 优化内部表格样式 */
+.callout[data-callout="table"] .callout-content table {
+    width: 100%; /* 让表格自适应宽度 */
+    margin: 5px 0 10px 0 !important;
+    border-collapse: collapse;
+}
+
+/* 表头强化：给表头加一个极浅的底色 */
+.callout[data-callout="table"] th {
+    background-color: rgba(var(--callout-color), 0.05) !important;
+    border-bottom: 2px solid rgba(var(--callout-color), 0.3) !important;
+    font-weight: 600;
+}
+
+/* 隔行变色：增加阅读体验 */
+.callout[data-callout="table"] tr:nth-child(even) {
+    background-color: rgba(var(--callout-color), 0.02);
+}
+
+/* 9. Point (观点) - 最重要的核心内容 */
+/* 寓意：核心目标、靶心，代表最关键的结论 */
+.callout[data-callout="point"] {
+    /* 推荐色：玫红色 (RGB: 233, 30, 99) 
+       原因：在现有的紫、蓝、橙色系中，红色系拥有最高的视觉权重，
+       能够第一眼抓住眼球，符合"最重要"的定义。 */
+    --callout-color: 233, 30, 99; 
+    
+    /* 图标：使用 Lucide 图标库中的靶心 */
+    --callout-icon: lucide-target;
+}
+
+/* 进阶选项：如果你希望它不仅颜色突出，背景也稍微明显一点（类似 Proof 的处理），
+   可以取消下面这段的注释 */
+
+.callout[data-callout="point"] {
+    background-color: rgba(var(--callout-color), 0.1) !important;
+    border: 1px solid rgba(var(--callout-color), 0.3);
+}
+
+/* 10. Sol (解) - 纸张感 */
+.callout[data-callout="solution"] {
+    --callout-color: 160, 140, 115; /* 咖啡/木质色 */
+    background-color: rgba(255, 248, 225, 0.4) !important; /* 极浅的暖米色 */
+    border: 1px inset rgba(var(--callout-color), 0.2);
+}
+
+.callout[data-callout="solution"] {
+    --callout-color: 160, 140, 115; /* 咖啡/木质色 */
+    background-color: rgba(255, 248, 225, 0.4) !important; /* 极浅的暖米色 */
+    border: 1px inset rgba(var(--callout-color), 0.2);
+}
+
+.callout[data-callout="solution"] .callout-icon {
+    color: #8d6e63;
+}
+
+/* 11. Question (题目) - 清新的绿色 */
+/* 寓意：绿灯/发令枪，代表思考的开始 */
+.callout[data-callout="question"] {
+    /* 推荐色：Material Design Green (RGB: 76, 175, 80) */
+    --callout-color: 76, 175, 80; 
+    --callout-icon: lucide-help-circle;
+}
+
+/* 进阶美化 (可选)：让题目和解答连在一起时更好看 */
+/* 如果题目块紧接着解答块，去掉题目块的下边距，让它们看起来像一个整体 */
+.callout[data-callout="question"] + .callout[data-callout="solution"] {
+    margin-top: -12px !important; /* 视你的主题情况调整 */
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: none;
+}
