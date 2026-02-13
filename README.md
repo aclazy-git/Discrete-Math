@@ -14,15 +14,27 @@
 
 在该网页中找到 Fork 按钮，点击 Create a new fork 后派生该仓库。
 
+![Fork](./Guide/1.png)
+
 ## Clone该仓库
 
 在 Githubdesktop 左上角点击 File -> Clone repository 。
 
+![Clone1](./Guide/2.png)
+
 找到你刚刚 Fork 的仓库，并选择一个你喜欢的本地路径存储该仓库。
+
+![Clone2](./Guide/3.png)
+
+注意，一定要选择 Contribute to the parent project。
+
+![Clone3](./Guide/4.png)
 
 ## Obsidian该仓库
 
 在Obsidian中添加新仓库，找到你刚刚保存在本地的仓库
+
+![Obsidian](./Guide/5.png)
 
 恭喜你，完成这一步后，可以直接在Obsidian中修改文件，添加评论，添加链接引用等操作。
 
@@ -32,11 +44,23 @@
 
 第一步，**在本地**保存你的修改。在左下角填写好这次修改的 Summary 和 Description ( 选填 )，后点击 Commite Changes 对本地文件进行保存。
 
+![Submit1](./Guide/6.png)
+
 第二部，点击右上角的 Push Origin ，将本地的修改同步到云端。
+
+![Submit1](./Guide/7.png)
 
 完成云端的同步后，进入 github.com 网页端。
 
-点击新出现的 Contribute 按钮，将你作的修改供我检查，并且查看我的反馈。一般来说，我在检查完修改后会进行 Commit 操作，将你的修改与我的源文件进行合并。
+点击新出现的 Contribute 按钮，将你作的修改供我检查，并且查看我的反馈。
+
+通过填写 Title 和 Description 简要地告诉我你作出了什么修改。
+
+一般来说，我在检查完修改后会进行 Commit 操作，将你的修改与我的源文件进行合并。
+
+![Submit2](./Guide/8.png)
+
+![Submit3](./Guide/9.png)
 
 
 
