@@ -11,12 +11,14 @@
             "id": "52b75ad7acbe5c66",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "离散part3/images/0a85fcb794c5250a51d93bdc75d097b349e348f97b2b098bf8e18c0b503c4074.jpg"
+                "file": "离散part1/离散数学 P1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "0a85fcb794c5250a51d93bdc75d097b349e348f97b2b098bf8e18c0b503c4074"
+              "icon": "lucide-file",
+              "title": "离散数学 P1"
             }
           }
         ]
@@ -180,11 +182,13 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07b4837aa94e58c2",
+  "active": "52b75ad7acbe5c66",
   "lastOpenFiles": [
+    "离散part3/images/0a85fcb794c5250a51d93bdc75d097b349e348f97b2b098bf8e18c0b503c4074.jpg",
     "离散part2/images/0a257f2398d7685926a9783774163bc8680f8bff706b994a844de70cffb80899.jpg",
     "离散part1/离散数学 P1.md",
     "latexsuite.js",
@@ -225,7 +229,6 @@
     "离散part1/images/0cfeb08684adf0cb6245b2ceacfb8739b4c89527858d9a9aae499e46a579ca1d.jpg",
     "离散part1/images/0cf6e994b7697f932762db6b35d722786cb992520c0f17b6ae219af483337ff5.jpg",
     "离散part1/images/0bcda361e619551cdec2ce76697fe4f5fee4b7d5f5c936950cc08fef08c8f7e1.jpg",
-    "离散part1/images/0bad9dae8cb936051758f5960274f27ce93b42a0b0dd81f49b9aec5388547e6f.jpg",
     "1770895778685973f96c1-ed1d-4d3d-8265-621814a4acf1/9e108109-18eb-4639-8c62-568ae1647f80.zip",
     "177089577868666a1f930-b5b3-47f1-8385-a729b5a54989/05b94756-56a2-40d9-acf4-667b9ed024ab.zip",
     "离散part3",
