@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "离散part1/离散数学 P1.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "离散数学 P1"
+              "title": "README"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "离散part1/离散数学 P1.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "离散数学 P1 的大纲"
+              "title": "README 的大纲"
             }
           }
         ],
@@ -170,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 461.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,14 +187,17 @@
   },
   "active": "52b75ad7acbe5c66",
   "lastOpenFiles": [
+    "Guide/学习方式.md",
+    "Guide/协作方式.md",
+    "离散part1/离散数学 P1.md",
+    "离散part1/full.md",
+    "README.md",
     "Guide/5.png",
     "离散part1/符号表.pdf",
     "离散part3/images/0a85fcb794c5250a51d93bdc75d097b349e348f97b2b098bf8e18c0b503c4074.jpg",
     "离散part2/images/0a257f2398d7685926a9783774163bc8680f8bff706b994a844de70cffb80899.jpg",
-    "离散part1/离散数学 P1.md",
     "latexsuite.js",
     "离散part2/full.md",
-    "离散part1/full.md",
     "离散part4/origin_p4.pdf",
     "离散part3/origin_p3.pdf",
     "离散part2/origin_p2.pdf",
@@ -219,15 +223,12 @@
     "O-正反馈.md",
     "O-自控.md",
     "O-AI.md",
-    "README.md",
-    "B-极限与连续.md",
     "离散part1/images/2ef660fc73d1538f9b30f0f5913b81f5ee406dad666214d2b5a9504819e4c230.jpg",
     "离散part1/images/1d9e34ad869e5b42ace34ca197cd46ae630e1919184271adbf6f0b475fd41dd7.jpg",
     "离散part1/images/1cab45c6fee1fc79cdab588ad7f37c82d0ed72445b64a466d35598c25e0de805.jpg",
     "离散part1/images/0ecb1d1e484697b83a91dc1a2dff4fa52658bd30c25debd93fcc58fbb4d10100.jpg",
     "离散part1/images/0ea1df2650fd996127b544e81db9de36e40d94342326cf2c11a39f32bcdaee5b.jpg",
     "离散part1/images/0cfeb08684adf0cb6245b2ceacfb8739b4c89527858d9a9aae499e46a579ca1d.jpg",
-    "离散part1/images/0cf6e994b7697f932762db6b35d722786cb992520c0f17b6ae219af483337ff5.jpg",
     "1770895778685973f96c1-ed1d-4d3d-8265-621814a4acf1/9e108109-18eb-4639-8c62-568ae1647f80.zip",
     "177089577868666a1f930-b5b3-47f1-8385-a729b5a54989/05b94756-56a2-40d9-acf4-667b9ed024ab.zip",
     "离散part3",
