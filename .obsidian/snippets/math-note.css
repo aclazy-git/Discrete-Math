@@ -150,3 +150,49 @@
     border-top-right-radius: 0;
     border-top: none;
 }
+
+/*评注*/
+/* 针对 comment 类型的 Callout 深度定制 */
+.callout[data-callout="comment"] {
+    /* 1. 整体边框：深灰色 */
+    border: 1px solid #5c5c5c !important;
+    /* 2. 背景：淡淡的灰色，且标题行与内容区背景一致 */
+    background-color: rgba(128, 128, 128, 0.08) !important;
+    padding: 0 !important; /* 清除默认内边距以便统一控制 */
+    border-radius: 6px;
+    overflow: hidden;
+}
+/* 标题行：取消背景色，让它透明地浮在整体背景上 */
+.callout[data-callout="comment"] .callout-title {
+    background-color: transparent !important; 
+    padding: 8px 12px 4px 12px; /* 底部间距调小，紧凑一点 */
+    gap: 6px;
+}
+/* 图标：弱化，使用和边框一致的颜色，并调低透明度 */
+.callout[data-callout="comment"] .callout-icon {
+    color: #5c5c5c !important;
+    opacity: 0.6;
+    --icon-size: 16px; /* 稍微缩小图标 */
+}
+/* 标题文字：稍微黑一点点，保留原灰调 */
+.callout[data-callout="comment"] .callout-title-inner {
+    color: #333333 !important;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-transform: none; /* 防止某些主题强制大写 */
+}
+/* 内容区域：与标题保持对齐 */
+.callout[data-callout="comment"] .callout-content {
+    padding: 0px 12px 10px 12px;
+    color: #1a1a1a !important;
+    font-size: 0.95em;
+    background-color: transparent !important;
+}
+/* 黑夜模式兼容适配 */
+.theme-dark .callout[data-callout="comment"] .callout-title-inner,
+.theme-dark .callout[data-callout="comment"] .callout-content {
+    color: #d1d1d1 !important;
+}
+.theme-dark .callout[data-callout="comment"] .callout-icon {
+    color: #888888 !important;
+}

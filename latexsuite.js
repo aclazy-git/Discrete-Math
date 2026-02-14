@@ -25,6 +25,8 @@
 	// 10. Question-que
     {trigger: "que", replacement: ">[!question] 题目 $0\n>$1\n>^que", options: "tw"},
     {trigger: ">que", replacement: ">>[!question] 题目", options: "tw"},
+	// 11. Comment
+	{trigger: "com", replacement: ">[!comment] $0\n>$1\n>^com", options: "tw"},
     
 	//1. Ref-Theorem 
     {trigger: "uu", replacement: "[[$0]]", options: "tw"},
@@ -45,9 +47,6 @@
 
 	//calculation
 	{trigger: "sim", replacement: "\\sim", options: "mA"},
-
-	//comment
-	{trigger: "com", replacement: "> Aclazy: ", options: "tm"},
 
     // Math mode
 	{trigger: "mk", replacement: "$$0$", options: "tA"},

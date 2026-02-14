@@ -1334,9 +1334,7 @@ $p \leftrightarrow q$ 的真值表如表6所示。注意，当条件语句 $p \r
 
 我们可以用所定义的否定运算符和逻辑运算符来构造复合命题。我们通常使用括号来规定复合命题中的逻辑运算符的作用顺序。例如， $(p \lor q) \land (\neg r)$ 是 $p \lor q$ 和 $\neg r$ 的合取。然而，为了减少括号的数量，我们规定否定运算符先于所有其他逻辑运算符。这意味着 $\neg p \land q$ 是 $\neg p$ 和 $q$ 的合取，即 $(\neg p) \land q$ ，而不是 $p$ 和 $q$ 的合取的否定，即 $\neg (p \land q)$ 。
 
-另一个常用的优先级规则是合取运算符优先于析取运算符，这样 $p \lor q \land r$ 意思是 $p \lor (q \land r)$ ，而非 $(p \lor q) \land r$ ，而 $p \land q \lor r$ 意思是 $(p \land q) \lor r$ 而非 $p \land (q \lor r)$ 。因为这个规则不太好记，
-
-所以我们将继续使用括号以使析取运算符和合取运算符的作用顺序看起来很清晰。
+另一个常用的优先级规则是合取运算符优先于析取运算符，这样 $p \lor q \land r$ 意思是 $p \lor (q \land r)$ ，而非 $(p \lor q) \land r$ ，而 $p \land q \lor r$ 意思是 $(p \land q) \lor r$ 而非 $p \land (q \lor r)$ 。因为这个规则不太好记，所以我们将继续使用括号以使析取运算符和合取运算符的作用顺序看起来很清晰。
 
 最后，一个已被接受的规则是条件运算符和双条件运算符的优先级低于合取运算符和析取运算符的优先级。因此， $p \rightarrow q \lor r$ 意思是 $p \rightarrow (q \lor r)$ 而非 $(p \rightarrow q) \lor r$ ， $p \lor q \rightarrow r$ 意思是 $(p \lor q) \rightarrow r$ 而非 $p \lor (q \rightarrow r)$ 。尽管条件运算符的优先级高于双条件运算符的优先级，但当条件运算符和双条件运算符的作用顺序有歧义时，我们也将使用括号。表8展示了逻辑运算符 $\neg$ 、 $\land$ 、 $\lor$ 、 $\rightarrow$ 和 $\leftrightarrow$ 的优先级。
 
